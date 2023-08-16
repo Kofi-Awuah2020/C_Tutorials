@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-#define GRID 5 //Remeber no semicolon
+#define GRID 5 //Remember no semicolon
 
 /* protype */
 void forward(void);
