@@ -38,4 +38,26 @@ int main()
         printf("%d ", random[y]);
     }
     putchar('\n');
+
+    /* Reverse Bubble sort */
+   for (previous = 0; previous < size - 1; previous++)
+    {
+        for (next = previous + 1; next < size; next++)
+        {
+            if ( random[previous] < random[next])
+            {
+                temp = random[next]; 
+                random[next] = random[previous];
+                random[previous] = temp;
+            }
+        }
+    }
+
+    /* Printing the reverse sorted list */
+    puts("The reverse sorted list");
+    for (int z = 0; z < size; z++)
+    {
+        printf("%d ", random[z]);
+    }
+    putchar('\n');
 }   
