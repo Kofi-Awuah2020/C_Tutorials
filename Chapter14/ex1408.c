@@ -3,7 +3,8 @@
 
 int main()
 {
-    struct date //A Nested Structure 
+    //A Nested Structure
+    struct date  
     {
         int month;
         int day;
