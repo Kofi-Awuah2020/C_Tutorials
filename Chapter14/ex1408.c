@@ -4,21 +4,21 @@
 int main()
 {
     //A Nested Structure
-    struct date  
+    typedef struct date  
     {
         int month;
         int day;
         int year;
-    };
-    struct id
+    }calender;
+    typedef struct id
     {
         char first[20];
         char last[25];
-    };
+    }personal;
     struct human
     {
-        struct id name;
-        struct date birthday;
+        personal name;
+        calender birthday;
     };
     struct human president;
 
