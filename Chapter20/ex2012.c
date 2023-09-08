@@ -31,7 +31,7 @@ int main()
         }
         else
         {
-            current -> next = make_structure;
+            current -> next = make_structure();
             current = current -> next;
         }
         fill_structure(current, x + 1);
